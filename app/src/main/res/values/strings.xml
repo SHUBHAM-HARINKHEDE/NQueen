@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">N Queen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Exit</string>
+
+    <string name="instruction">
+        In this problem, you are given an empty chess board of dimensions N * N.
+        \nThe task is to safely place N queens, one in each row such that they cause no harm to each other  .
+        \nThe basic idea is mentioned below:
+        \nStart from the first row
+        \nSelect a column and if it is empty, well within the limits of the board and in no immediate danger, then place the queen in the cell
+        \nProceed to the next row
+        \nTwo conditions might occur,
+        \nall the rows are safely filled
+        \nsomewhere down the line, one of the queens cant be placed in a row.
+        \nHere we need to backtrack, because a decision was wrongly made in the past
+</string>
+     <string name="dev">Shubham Harinkhede
+         \nGHRCE
+         \nCSE-7-B-49
+
+
+    </string>
+    <string name="ab">N-Queens is one of the simple strategy games
+        based on one of the chess rules, demonstrating the behavior
+        of the queen in the board, to win you have to find spots to
+        move the queen 8 times.The eight queens puzzle is based on
+        the classic stategy games problem which is in this case
+        putting eight chess queens on an 8×8 chessboard such that
+        none of them is able to capture any other using the standard chess queen.
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
